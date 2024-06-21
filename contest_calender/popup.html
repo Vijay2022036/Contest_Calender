@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contest Calendar</title>
+    <style>
+        html{
+            border: solid #007bff 4px;
+        }
+        .contest {
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+        .contest-logo {
+            margin-right: 10px;
+        }
+        .contest-title {
+            flex-grow: 1;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .contest-time {
+            margin-right: 20px;
+        }
+        .contest-link {
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center;font-family: 'Times New Roman', Times, serif;"><h2>Upcoming Contests</h3></div>
+    <div id="contestList"></div>
+    <script src="popup.js"></script>
+</body>
+</html>
